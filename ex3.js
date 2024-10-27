@@ -1,7 +1,10 @@
 const treeHeight = parseInt(
   prompt("Please enter the size of the Christmas tree:")
 );
-var tree = document.getElementById("tree");
+var tree = document.createElement("div");
+//https://www.w3schools.com/jsref/prop_doc_body.asp
+document.body.appendChild(tree);
+//
 var line = "|";
 var star = "*";
 var emptySpace = " ";
