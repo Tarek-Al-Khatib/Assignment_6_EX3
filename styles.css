@@ -7,6 +7,10 @@ body {
   margin: 0;
   font-size: 48px;
   text-align: center;
+  letter-spacing: 25px;
+  line-height: 10px;
+  background-color: rgb(49, 49, 49);
+  color: rgb(201, 201, 201);
 }
 
 .gold-star {
